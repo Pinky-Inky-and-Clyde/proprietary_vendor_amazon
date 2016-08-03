@@ -19,7 +19,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/thor/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/amazon/thor/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/amazon/thor/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
-    vendor/amazon/thor/proprietary/vendor/lib/libOmxMux.so:system/vendor/lib/libOmxMux.so \
     vendor/amazon/thor/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
     vendor/amazon/thor/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/amazon/thor/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
@@ -85,7 +84,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/thor/proprietary/bin/qseecom_sample_client:system/bin/qseecom_sample_client \
     vendor/amazon/thor/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/amazon/thor/proprietary/bin/qseecom_security_test:system/bin/qseecom_security_test \
-    vendor/amazon/thor/proprietary/bin/qseecomd_static:system/bin/qseecomd_static \
     vendor/amazon/thor/proprietary/bin/radish:system/bin/radish \
     vendor/amazon/thor/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/amazon/thor/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
@@ -188,7 +186,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/thor/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.msm8974.so \
     vendor/amazon/thor/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/amazon/thor/proprietary/lib/libgpu.cr.so:system/lib/libgpu.cr.so \
-    vendor/amazon/thor/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
     vendor/amazon/thor/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/amazon/thor/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/amazon/thor/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
@@ -212,13 +209,10 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/thor/proprietary/vendor/lib/libmmhttpstack.so:system/vendor/lib/libmmhttpstack.so \
     vendor/amazon/thor/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/amazon/thor/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
-    vendor/amazon/thor/proprietary/vendor/lib/libmmwfdsinkinterface.so:system/vendor/lib/libmmwfdsinkinterface.so \
     vendor/amazon/thor/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/amazon/thor/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/amazon/thor/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
-    vendor/amazon/thor/proprietary/vendor/lib/libwfdsm.so:system/vendor/lib/libwfdsm.so \
     vendor/amazon/thor/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
-    vendor/amazon/thor/proprietary/vendor/lib/libwfdrtsp.so:system/vendor/lib/libwfdrtsp.so \
     vendor/amazon/thor/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/amazon/thor/proprietary/vendor/lib/libSubSystemShutdown.so:system/vendor/lib/libSubSystemShutdown.so \
     vendor/amazon/thor/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
@@ -228,10 +222,8 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/thor/proprietary/vendor/lib/libquipc_ulp_adapter.so:system/vendor/lib/libquipc_ulp_adapter.so \
     vendor/amazon/thor/proprietary/vendor/lib/libdsnetutils.so:system/vendor/lib/libdsnetutils.so \
     vendor/amazon/thor/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
-    vendor/amazon/thor/proprietary/vendor/lib/libwfduibcinterface.so:system/vendor/lib/libwfduibcinterface.so \
     vendor/amazon/thor/proprietary/vendor/lib/librmp.so:system/vendor/lib/librmp.so \
     vendor/amazon/thor/proprietary/vendor/lib/libcneutils.so:system/vendor/lib/libcneutils.so \
-    vendor/amazon/thor/proprietary/vendor/lib/libFileMux.so:system/vendor/lib/libFileMux.so \
     vendor/amazon/thor/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/amazon/thor/proprietary/vendor/lib/libextendedremotedisplay.so:system/vendor/lib/libextendedremotedisplay.so \
     vendor/amazon/thor/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
@@ -243,14 +235,12 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/thor/proprietary/vendor/lib/libual.so:system/vendor/lib/libual.so \
     vendor/amazon/thor/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/amazon/thor/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
-    vendor/amazon/thor/proprietary/vendor/lib/libwfdmmutils.so:system/vendor/lib/libwfdmmutils.so \
     vendor/amazon/thor/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
     vendor/amazon/thor/proprietary/vendor/lib/libmmiipstreammmihttp.so:system/vendor/lib/libmmiipstreammmihttp.so \
     vendor/amazon/thor/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
     vendor/amazon/thor/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/amazon/thor/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
     vendor/amazon/thor/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
-    vendor/amazon/thor/proprietary/vendor/lib/libmmwfdsrcinterface.so:system/vendor/lib/libmmwfdsrcinterface.so \
     vendor/amazon/thor/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/amazon/thor/proprietary/vendor/lib/libusndroute.so:system/vendor/lib/libusndroute.so \
     vendor/amazon/thor/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
@@ -263,7 +253,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/thor/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
     vendor/amazon/thor/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/amazon/thor/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
-    vendor/amazon/thor/proprietary/vendor/lib/libwfdcommonutils.so:system/vendor/lib/libwfdcommonutils.so \
     vendor/amazon/thor/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/amazon/thor/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/amazon/thor/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
@@ -278,27 +267,22 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/thor/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
     vendor/amazon/thor/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
     vendor/amazon/thor/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
-    vendor/amazon/thor/proprietary/vendor/lib/libwfduibcsrc.so:system/vendor/lib/libwfduibcsrc.so \
     vendor/amazon/thor/proprietary/vendor/lib/libmmgesture-bus2.so:system/vendor/lib/libmmgesture-bus2.so \
-    vendor/amazon/thor/proprietary/vendor/lib/libwfdnative.so:system/vendor/lib/libwfdnative.so \
     vendor/amazon/thor/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/amazon/thor/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
     vendor/amazon/thor/proprietary/vendor/lib/libloc_xtra.so:system/vendor/lib/libloc_xtra.so \
     vendor/amazon/thor/proprietary/vendor/lib/lib-imsvt.so:system/vendor/lib/lib-imsvt.so \
     vendor/amazon/thor/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/amazon/thor/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
-    vendor/amazon/thor/proprietary/vendor/lib/libwfduibcsinkinterface.so:system/vendor/lib/libwfduibcsinkinterface.so \
     vendor/amazon/thor/proprietary/vendor/lib/libmsapm_jni.so:system/vendor/lib/libmsapm_jni.so \
     vendor/amazon/thor/proprietary/vendor/lib/lib-rcsjni.so:system/vendor/lib/lib-rcsjni.so \
     vendor/amazon/thor/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
-    vendor/amazon/thor/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/amazon/thor/proprietary/vendor/lib/libmmQTA.so:system/vendor/lib/libmmQTA.so \
     vendor/amazon/thor/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/amazon/thor/proprietary/vendor/lib/libP11EncryptorDecryptor.so:system/vendor/lib/libP11EncryptorDecryptor.so \
     vendor/amazon/thor/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
     vendor/amazon/thor/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
     vendor/amazon/thor/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
-    vendor/amazon/thor/proprietary/vendor/lib/libwfdhdcpcp.so:system/vendor/lib/libwfdhdcpcp.so \
     vendor/amazon/thor/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
     vendor/amazon/thor/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:system/vendor/lib/rfsa/adsp/libfastcvadsp.so \
     vendor/amazon/thor/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:system/vendor/lib/rfsa/adsp/libscveT2T_skel.so \
@@ -314,13 +298,10 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/thor/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
     vendor/amazon/thor/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/amazon/thor/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
-    vendor/amazon/thor/proprietary/vendor/lib/libwfdmmsrc.so:system/vendor/lib/libwfdmmsrc.so \
     vendor/amazon/thor/proprietary/vendor/lib/libdsucsd.so:system/vendor/lib/libdsucsd.so \
-    vendor/amazon/thor/proprietary/vendor/lib/libmmwfdinterface.so:system/vendor/lib/libmmwfdinterface.so \
     vendor/amazon/thor/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
     vendor/amazon/thor/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/amazon/thor/proprietary/vendor/lib/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so \
-    vendor/amazon/thor/proprietary/vendor/lib/libwfduibcsink.so:system/vendor/lib/libwfduibcsink.so \
     vendor/amazon/thor/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/amazon/thor/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/amazon/thor/proprietary/vendor/lib/lib-rcsimssjni.so:system/vendor/lib/lib-rcsimssjni.so \
@@ -328,7 +309,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/thor/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
     vendor/amazon/thor/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
     vendor/amazon/thor/proprietary/vendor/lib/libualutil.so:system/vendor/lib/libualutil.so \
-    vendor/amazon/thor/proprietary/vendor/lib/libwfdmmsink.so:system/vendor/lib/libwfdmmsink.so \
     vendor/amazon/thor/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
     vendor/amazon/thor/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/amazon/thor/proprietary/vendor/lib/soundfx/libhwdap.so:system/vendor/lib/soundfx/libhwdap.so \
@@ -337,7 +317,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/thor/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/amazon/thor/proprietary/vendor/lib/libprdrmdecrypt.so:system/vendor/lib/libprdrmdecrypt.so \
     vendor/amazon/thor/proprietary/vendor/lib/libmmipstreamutils.so:system/vendor/lib/libmmipstreamutils.so \
-    vendor/amazon/thor/proprietary/vendor/lib/libwfduibcsrcinterface.so:system/vendor/lib/libwfduibcsrcinterface.so \
     vendor/amazon/thor/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/amazon/thor/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
     vendor/amazon/thor/proprietary/vendor/lib/liblistensoundmodel.so:system/vendor/lib/liblistensoundmodel.so \
@@ -347,7 +326,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/thor/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/amazon/thor/proprietary/vendor/lib/libmmipstreamaal.so:system/vendor/lib/libmmipstreamaal.so \
     vendor/amazon/thor/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
-    vendor/amazon/thor/proprietary/vendor/lib/libscve_stub.so:system/vendor/lib/libscve_stub.so \
     vendor/amazon/thor/proprietary/vendor/lib/libtzplayready.so:system/vendor/lib/libtzplayready.so \
     vendor/amazon/thor/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/amazon/thor/proprietary/vendor/lib/libmmcamera_arrow_eeprom.so:system/vendor/lib/libmmcamera_arrow_eeprom.so \
@@ -430,25 +408,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/thor/proprietary/vendor/lib/libchromatix_skuab_shinetech_gc0339_common.so:system/vendor/lib/libchromatix_skuab_shinetech_gc0339_common.so \
     vendor/amazon/thor/proprietary/vendor/lib/libchromatix_skuab_shinetech_gc0339_default_video.so:system/vendor/lib/libchromatix_skuab_shinetech_gc0339_default_video.so \
     vendor/amazon/thor/proprietary/vendor/lib/libchromatix_skuab_shinetech_gc0339_preview.so:system/vendor/lib/libchromatix_skuab_shinetech_gc0339_preview.so \
-    vendor/amazon/thor/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
-    vendor/amazon/thor/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
-    vendor/amazon/thor/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
-    vendor/amazon/thor/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
-    vendor/amazon/thor/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
-    vendor/amazon/thor/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
-    vendor/amazon/thor/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
-    vendor/amazon/thor/proprietary/vendor/lib/libc2d2_z180.so:system/vendor/lib/libc2d2_z180.so \
-    vendor/amazon/thor/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
-    vendor/amazon/thor/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
-    vendor/amazon/thor/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
-    vendor/amazon/thor/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
-    vendor/amazon/thor/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
-    vendor/amazon/thor/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
-    vendor/amazon/thor/proprietary/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
-    vendor/amazon/thor/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
-    vendor/amazon/thor/proprietary/vendor/lib/libscve.so:system/vendor/lib/libscve.so \
-    vendor/amazon/thor/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
-    vendor/amazon/thor/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
+    vendor/amazon/thor/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/amazon/thor/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/amazon/thor/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/amazon/thor/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
@@ -466,13 +426,9 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/thor/proprietary/etc/firmware/ar3k/1020201/RamPatch.txt:system/etc/firmware/ar3k/1020201/RamPatch.txt \
     vendor/amazon/thor/proprietary/etc/firmware/ar3k/1020201/PS_ASIC.pst:system/etc/firmware/ar3k/1020201/PS_ASIC.pst \
     vendor/amazon/thor/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
-    vendor/amazon/thor/proprietary/etc/firmware/ath6k/AR6004/hw1.3/bdata.bin_usb:system/etc/firmware/ath6k/AR6004/hw1.3/bdata.bin_usb \
-    vendor/amazon/thor/proprietary/etc/firmware/ath6k/AR6004/hw1.3/bdata.bin_sdio:system/etc/firmware/ath6k/AR6004/hw1.3/bdata.bin_sdio \
-    vendor/amazon/thor/proprietary/etc/firmware/ath6k/AR6004/hw1.3/fw.ram.bin_sdio:system/etc/firmware/ath6k/AR6004/hw1.3/fw.ram.bin_sdio \
-    vendor/amazon/thor/proprietary/etc/firmware/ath6k/AR6004/hw1.3/fw.ram.bin_usb:system/etc/firmware/ath6k/AR6004/hw1.3/fw.ram.bin_usb \
-    vendor/amazon/thor/proprietary/etc/firmware/ath6k/AR6004/hw3.0/bdata.bin_usb:system/etc/firmware/ath6k/AR6004/hw3.0/bdata.bin_usb \
-    vendor/amazon/thor/proprietary/etc/firmware/ath6k/AR6004/hw3.0/bdata.bin_sdio:system/etc/firmware/ath6k/AR6004/hw3.0/bdata.bin_sdio \
-    vendor/amazon/thor/proprietary/etc/firmware/ath6k/AR6004/hw3.0/boardData_Thor_FCC.bin:system/etc/firmware/ath6k/AR6004/hw3.0/boardData_Thor_FCC.bin \
+    vendor/amazon/thor/proprietary/etc/firmware/ath6k/AR6004/hw1.3/bdata.bin:system/etc/firmware/ath6k/AR6004/hw1.3/bdata.bin \
+    vendor/amazon/thor/proprietary/etc/firmware/ath6k/AR6004/hw1.3/fw.ram.bin:system/etc/firmware/ath6k/AR6004/hw1.3/fw.ram.bin \
+    vendor/amazon/thor/proprietary/etc/firmware/ath6k/AR6004/hw3.0/bdata.bin:system/etc/firmware/ath6k/AR6004/hw3.0/bdata.bin \
     vendor/amazon/thor/proprietary/etc/firmware/ath6k/AR6004/hw3.0/boardData_Thor_ETSI_WAN.bin:system/etc/firmware/ath6k/AR6004/hw3.0/boardData_Thor_ETSI_WAN.bin \
     vendor/amazon/thor/proprietary/etc/firmware/ath6k/AR6004/hw3.0/boardData_Thor_ETSI.bin:system/etc/firmware/ath6k/AR6004/hw3.0/boardData_Thor_ETSI.bin \
     vendor/amazon/thor/proprietary/etc/firmware/ath6k/AR6004/hw3.0/fw.ram.bin:system/etc/firmware/ath6k/AR6004/hw3.0/fw.ram.bin \
